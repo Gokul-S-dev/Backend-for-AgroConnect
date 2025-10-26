@@ -1,15 +1,10 @@
 {
   "name": "data",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
-  "start": "json-server --watch db.json --port $PORT"
-},
-  "author": "",
-  "license": "ISC",
-  "description": "",
+    "start": "npx json-server --watch db.json --port $PORT"
+  },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.3"
   }
 }
