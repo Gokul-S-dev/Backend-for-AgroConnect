@@ -2,7 +2,7 @@
   "name": "data",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx json-server --watch db.json --port $PORT"
+    "start": "npx json-server --watch data.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.3"
